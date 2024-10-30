@@ -1,0 +1,124 @@
+/* LePress Widget CSS File */
+
+.lepress-hidden {
+	display:none;
+}
+
+.lepress-opacity {
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	float: right;
+}
+
+/* Widget H3 tag styles */
+
+.widget_lepresswidget h3 {
+	cursor: pointer;
+	background-color: #F4F4F4;
+	margin-top: 5px;
+	margin-bottom: 3px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding-left: 5px;
+}
+
+.widget_lepresswidget select, #wp-calendar {
+	width: 100% !important;
+}
+
+.widget_lepresswidget .subscriber-blog {
+ 	line-height: 1em !important;
+ 	width: 96%;
+}
+
+#subscriber-blog-submit {
+	float:right;
+	margin-bottom: 5px;
+}
+
+#lepress-simple-message {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+#lepress-assignments, #lepress-participants, #lepress-teachers, #lepress-progress {
+	padding-left: 4px;
+}
+
+#lepress_widget_calendar h3 img {
+	margin-top: 7px;
+	float:right;
+}
+
+#lepress_widget_calendar img {
+	vertical-align: middle;
+	padding-right: 4px;
+	border: 0px;
+}
+
+/* Assignments of the day styles */
+
+#lepress-assignments-list-of-day img {
+	border: 0px;
+}
+
+#lepress-assignments-list-of-day ul, #lepress-assignments ul {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+#lepress-assignments-list-of-day a img {
+	vertical-align: middle;
+	margin-top: -3px;
+}
+
+#lepress-assignments-list-of-day {
+	position: absolute; 
+	width: 250px; 
+	background-color:#FFF;
+	display:none;
+	margin-left: -285px;
+	margin-top: 12px;
+	padding: 10px;
+	
+	-moz-box-shadow: 0px 0px 5px 5px #ccc;
+  	-webkit-box-shadow: 0px 0px 5px 5px #ccc;
+  	box-shadow: 0px 0px 5px 5px #ccc;
+}
+
+#lepress-date-header {
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	display:block;
+	text-align: center;
+}
+
+/* AJAX loader gif */
+
+#lepress-ajax-loader {
+	text-align: center; 
+	background-color: #FFF; 
+	position: absolute; 
+	margin-top: 25px;
+	height: 163px; 
+	width: 189px; 
+	opacity: 0.25; 
+	filter:alpha(opacity=25);
+	display: none; 
+	z-index: 100;
+}
+
+/* Div popup on top of page, if student subscribes using blog url on teacher widget */
+
+.lepress-updated {
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 400px; 
+	background-color: #FFF;
+	-moz-box-shadow: 0px 0px 5px 5px #ccc;
+  	-webkit-box-shadow: 0px 0px 5px 5px #ccc;
+  	box-shadow: 0px 0px 5px 5px #ccc;
+  	padding: 5px;
+  	text-align: center;
+}

@@ -1,0 +1,1283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LePress 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-02 16:02+0300\n"
+"PO-Revision-Date: 2012-02-04 01:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: Tallinn University Centre for Educational Technology\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: ESTONIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Bookmarks: 17,62,84,193,242,254,-1,-1,-1,-1\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../main.php:86
+msgid "Choose your role"
+msgstr "Изменить вашу роль"
+
+#: ../main.php:88
+msgid "Display names as"
+msgstr "Показывать имена как"
+
+#: ../main.php:126
+msgid "Please edit your profile and fill <b>Firstname</b> and <b>Lastname</b> fields, otherwise some <b>features</b> of LePress are <b>disabled</b>"
+msgstr "Чтобы воспользоваться возможностями LePress gожалуйста отредактируйте ваш профиль и заполните поля <b>Имя</b> и <b>Фамилия</b> (Firstname и Lastname в англоязычной версии). "
+
+#: ../main.php:126
+msgid "Edit profile"
+msgstr "Редактировать профиль"
+
+#: ../main.php:220
+msgid "Student"
+msgstr "Студент"
+
+#: ../main.php:221
+msgid "Teacher"
+msgstr "Преподаватель"
+
+#: ../main.php:231
+msgid "Given name Surname"
+msgstr "Имя, Фамилия"
+
+#: ../main.php:232
+msgid "Surname Given name"
+msgstr "Фамилия, Имя"
+
+#: ../main.php:240
+msgid "General settings"
+msgstr "Общие настройки"
+
+#: ../main.php:255
+msgid "LePress settings"
+msgstr "Настройки LePress"
+
+#: ../main.php:255
+msgid "LePress"
+msgstr "LePress"
+
+#: ../main.php:272
+msgid "Save"
+msgstr "Сохранить"
+
+#: ../main.php:418
+msgid "Wipe data on plugin deactivation"
+msgstr "Удалять все данные LePress после деактивации плагина"
+
+#: ../main.php:428
+msgid "CAUTION! ALL THE DATA WILL BE DELETED!"
+msgstr "ВНИМАНИЕ! ВСЕ ДАННЫЕ БУДУТ УДАЛЕНЫ!"
+
+#: ../main.php:428
+msgid "If checked, LePress database tables will be deleted. Data saved as Wordpress metadata will not be altered."
+msgstr "Если отмечено, таблицы баз данных LePress будут удалены. Оригинальные метаданные WordPress затронуты не будут."
+
+#: ../main.php:436
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: ../service.php:47
+#: ../service.php:54
+msgid "Requested student submission was not found in student's blog"
+msgstr "Запрошенная домашняя работа студента не найдена в блоге студента"
+
+#: ../service.php:56
+msgid "Could not load post content, try again..."
+msgstr "Невозможно загрузить содержание блога. Пожалуйста попробуйте еще раз"
+
+#: ../service.php:138
+msgid "Requested student submission could not be loaded, try again..."
+msgstr "Запрошенная домашняя работа студента не может быть загружена.  Пожалуйста попробуйте еще раз"
+
+#: ../service.php:226
+#, fuzzy
+msgid "You have successfully confirmed your LePress course subscription!"
+msgstr "Вы окончательно подтвердили вашу подписку на LePress курс!"
+
+#: ../service.php:228
+#: ../classes/student_include/class-my_subscriptions.php:140
+msgid "You are already subscribed on this course"
+msgstr "Вы уже подписаны на этот курс"
+
+#: ../service.php:230
+#: ../widget.php:76
+#: ../classes/student_include/class-my_subscriptions.php:134
+msgid "This course does not accept any new subscriptions"
+msgstr "Этот курс больше не принимает новых подписчиков"
+
+#: ../service.php:232
+#: ../widget.php:75
+msgid "Subscribing failed"
+msgstr "Подписка не удалась"
+
+#: ../service.php:232
+#: ../widget.php:75
+msgid "Your profile is not filled (firstname/lastname)"
+msgstr "Ваш профиль не заполнен. Отсутствуют Имя и Фамилия!"
+
+#: ../service.php:234
+msgid "Confirming your LePress subscription failed! Try again..."
+msgstr "Невозможно подтвердить подписку на курс LePress. Пожалуйста попробуйте еще раз..."
+
+#: ../widget-courses-sitewide.php:15
+msgid "LePress Courses Sitewide"
+msgstr "Все Курсы LePress"
+
+#: ../widget-courses-sitewide.php:15
+msgid "Display LePress courses on the network, on your sidebar."
+msgstr "Показывать другие активные LePress курсы на этом сервере WordPress в вашем блоге"
+
+#: ../widget-courses-sitewide.php:63
+msgid "Active LePress Courses"
+msgstr "Активные курсы LePress"
+
+#: ../widget-courses-sitewide.php:131
+msgid "No active courses found on the network"
+msgstr "Нет активных курсов"
+
+#: ../widget-courses-sitewide.php:156
+msgid "Simple widget to display LePress courses on the network"
+msgstr "Простой виджет для показа всех LePress курсов активных на этом сервере WordPress"
+
+#: ../widget.php:21
+msgid "LePress plugin widget"
+msgstr "Виджет плагина LePress"
+
+#: ../widget.php:71
+msgid "Already subscribed ?"
+msgstr "Уже подписаны?"
+
+#: ../widget.php:72
+msgid "Success"
+msgstr "Подписка завершена успешно"
+
+#: ../widget.php:73
+msgid "Blog URL not entered"
+msgstr "Не введен URL адрес блога!"
+
+#: ../widget.php:74
+msgid "Blog URL not valid"
+msgstr " URL адрес блога введен неверно"
+
+#: ../widget.php:219
+msgid "You have not configured your plugin. Please login to administrative dashboard, go to Settings -> LePress and finish LePress configuration"
+msgstr "Вы не сконфигурировали LePress плагин. Пожалуйста залогиньтесь в административную панель, перейдите в Настройки -> LePress и закончите конфигурацию LePress"
+
+#: ../widget.php:241
+msgid "By default"
+msgstr "По умолчанию"
+
+#: ../widget.php:243
+msgid "Collapse participants list"
+msgstr "Свернуть лист участников"
+
+#: ../widget.php:245
+msgid "Collapse assignments list (teacher)"
+msgstr "Свернуть лист заданий (для учителя только)"
+
+#: ../wp-calendar-forked.php:203
+#: ../wp-calendar-forked.php:211
+#, php-format
+msgid "View posts for %1$s %2$s"
+msgstr "Смотреть посты для %1$s %2$s"
+
+#: ../wp-calendar-forked.php:318
+#: ../wp-calendar-forked.php:519
+msgid "Work submitted"
+msgstr "Задание представлено"
+
+#: ../wp-calendar-forked.php:324
+#: ../wp-calendar-forked.php:525
+msgid "Edit work"
+msgstr "Редактировать задание"
+
+#: ../wp-calendar-forked.php:328
+#: ../wp-calendar-forked.php:529
+#: ../classes/student_include/assignments.php:75
+msgid "Submit work"
+msgstr "Представить задание"
+
+#: ../wp-calendar-forked.php:336
+msgid "View assignment on teacher's blog"
+msgstr "Посмотреть задания в блоге преподавателя"
+
+#: ../wp-calendar-forked.php:338
+#: ../wp-calendar-forked.php:535
+msgid "draft"
+msgstr "черновик"
+
+#: ../wp-calendar-forked.php:353
+#: ../wp-calendar-forked.php:490
+msgid "Send feedback"
+msgstr "Послать отзыв"
+
+#: ../wp-calendar-forked.php:357
+#: ../wp-calendar-forked.php:494
+msgid "Change feedback"
+msgstr "Изменить отзыв"
+
+#: ../wp-calendar-forked.php:362
+#: ../wp-calendar-forked.php:499
+msgid "Not accomplished"
+msgstr "Не выполнено"
+
+#: ../wp-calendar-forked.php:453
+#: ../classes/student.php:454
+#: ../classes/student.php:563
+msgid "Assignments"
+msgstr "Задания"
+
+#: ../wp-calendar-forked.php:544
+#, fuzzy
+msgid "There are no assignments in this month."
+msgstr "В этом месяце заданий нет"
+
+#: ../wp-calendar-forked.php:551
+msgid "Graduation"
+msgstr "Оценки"
+
+#: ../wp-calendar-forked.php:552
+msgid "My progress"
+msgstr "Мои достижения"
+
+#: ../wp-calendar-forked.php:582
+#: ../classes/student.php:352
+#: ../classes/student.php:543
+msgid "Expand"
+msgstr "Развернуть"
+
+#: ../wp-calendar-forked.php:583
+msgid "Collapse"
+msgstr "Свернуть"
+
+#: ../wp-calendar-forked.php:609
+msgid "Participants"
+msgstr "Участники"
+
+#: ../wp-calendar-forked.php:639
+msgid "There are no participants in this course."
+msgstr "В этом курсе нет участников"
+
+#: ../wp-calendar-forked.php:658
+msgid "Teacher(s)"
+msgstr "Преподаватель/ли"
+
+#: ../wp-calendar-forked.php:676
+msgid "Oops, teacher(s) missing..."
+msgstr "Ой! Отсутствует преподаватель!"
+
+#: ../wp-calendar-forked.php:720
+#: ../wp-calendar-forked.php:737
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: ../wp-calendar-forked.php:726
+msgid "Enter your blog URL (http://www.example.com/blog)"
+msgstr "Введите URL вашего персонального блога (пример: http://www.example.com/blog)"
+
+#: ../wp-calendar-forked.php:729
+msgid "We have discovered your first active blog with LePress student roll enabled."
+msgstr "Вы активировали себя как студента LePress в вашем блоге."
+
+#: ../wp-calendar-forked.php:731
+msgid "By clicking \"Subscribe\", you will be subscribed to the course using found blog."
+msgstr "После щелчка на \"Подписаться\" вы будете подписаны на этот курс используя указанный блог."
+
+#: ../classes/student.php:254
+#: ../classes/student_include/assignments.php:36
+#: ../classes/student_include/assignments.php:133
+msgid "Grade"
+msgstr "Оценка"
+
+#: ../classes/student.php:350
+msgid "Submission for"
+msgstr "Домашниее задание для"
+
+#: ../classes/student.php:351
+msgid "Hide"
+msgstr "Скрыть"
+
+#: ../classes/student.php:452
+msgid "Courses"
+msgstr "Курсы"
+
+#: ../classes/student.php:453
+msgid "Classmates"
+msgstr "Однокурсники"
+
+#: ../classes/student.php:463
+msgid "Adjust cache update interval (student)"
+msgstr "Настроить интервал обновления кеша (тольок для студента)"
+
+#: ../classes/student.php:472
+#, fuzzy
+msgid "every minute"
+msgstr "каждые 2 минуты"
+
+#: ../classes/student.php:473
+msgid "every 2 minutes"
+msgstr "каждые 2 минуты"
+
+#: ../classes/student.php:474
+msgid "every 5 minutes"
+msgstr "каждые 5 минут"
+
+#: ../classes/student.php:475
+msgid "every 10 minutes"
+msgstr "каждые 10 минут"
+
+#: ../classes/student.php:476
+msgid "every 15 minutes"
+msgstr "каждые 15 минут"
+
+#: ../classes/student.php:477
+msgid "every 30 minutes"
+msgstr "каждые 30 минут"
+
+#: ../classes/student.php:478
+msgid "every hour"
+msgstr "ежечасно"
+
+#: ../classes/student.php:479
+msgid "every day"
+msgstr "ежедневно"
+
+#: ../classes/student.php:492
+msgid "How often to update course metadata info from teachers blogs ? This field is <b>recommended</b> to set greater or equal to 1 hour."
+msgstr "Как часто обновлять метаданные из блога учителя? <b>Рекомендуется</b> устанавливать значение равное или большее чем один час."
+
+#: ../classes/student.php:495
+msgid "How often to update classmates info from teachers blogs ? This field is <b>recommended</b> to set greater or equal to 15 minutes."
+msgstr "Как часто обновлять информацию от однокурсников из блога учителя? <b>Рекомендуется</b> устанавливать значение равное или большее чем 15 минут."
+
+#: ../classes/student.php:498
+msgid "How often to update list of assignments from teachers blogs ? This field is <b>recommended</b> to set less than 15 minutes."
+msgstr "Как часто обновлять список заданий из блогов учителей? <b>Рекомендуется</b> устанавливать значение равное или меньшее чем 15 минут."
+
+#: ../classes/student.php:513
+msgid "Submission"
+msgstr "Выполненное задание"
+
+#: ../classes/student.php:537
+#: ../classes/student_include/assignments.php:30
+#: ../classes/student_include/assignments.php:129
+msgid "Assignment"
+msgstr "Домашнее задание"
+
+#: ../classes/student.php:538
+#: ../classes/teacher.php:871
+msgid "Start date"
+msgstr "Первый день"
+
+#: ../classes/student.php:539
+#: ../classes/teacher.php:872
+msgid "End date"
+msgstr "Последний день"
+
+#: ../classes/student.php:540
+msgid "Excerpt"
+msgstr "Краткое содержание"
+
+#: ../classes/student.php:544
+msgid "Your submission will not be sent until you <b>publish</b> your post."
+msgstr "Домашняя работа не будет представлена пока вы не <b>опубликуете</b> ваше блог сообщение. "
+
+#: ../classes/student.php:545
+msgid "Public"
+msgstr "Открытый"
+
+#: ../classes/student.php:545
+msgid "Private"
+msgstr "Приватный"
+
+#: ../classes/student.php:545
+msgid "Hide post from other course members"
+msgstr "Скрыть сообщение от однокурсников (Преподаватель увидит сообщение)ю"
+
+#: ../classes/student.php:547
+msgid "You have already answered this assignment!"
+msgstr "Вы уже представили ответ на это задание!"
+
+#: ../classes/student.php:547
+#, fuzzy
+msgid "Edit previous post"
+msgstr "Редактировать предыдущее сообщение"
+
+#: ../classes/student.php:551
+msgid "Could not load assignment data"
+msgstr "Невозможно загрузить задание"
+
+#: ../classes/student.php:562
+msgid "Manage my subscriptions"
+msgstr "Упарвлять подписками"
+
+#: ../classes/student.php:562
+msgid " My subscriptions"
+msgstr "Мои подписки"
+
+#: ../classes/student.php:563
+#: ../classes/student_include/assignments.php:11
+msgid "Manage assignments"
+msgstr "Управлять заданиями"
+
+#: ../classes/teacher.php:43
+msgid "LePress Teacher"
+msgstr "LePress Преподаватель"
+
+#: ../classes/teacher.php:87
+msgid "Something went terribly wrong, could not fetch template, try again..."
+msgstr "Что-то пошло не так. Невозможно получить щаблон, пожалуйста попробуйте еще раз..."
+
+#: ../classes/teacher.php:158
+#, php-format
+msgid "You are trying to post a comment into LePress assignment post. Please note that you still haven't submitted your work. If you like to submit your work, please submit it %s; you will be redirected to your LePress dashboard."
+msgstr "Вы пытаетесь послать комментарий к домашнему заданию курса LePress. Пожалуйста оратите внимание, что вы еще не представили ваше домашнее задание. Ппредставте домашнее задание %s; вы будет перенаправлены в вашу панель управления LePress."
+
+#: ../classes/teacher.php:158
+msgid "clicking here"
+msgstr "щелкнув здесь"
+
+#: ../classes/teacher.php:159
+#, php-format
+msgid "Assignment deadline: %s"
+msgstr "Последний срок выполнения домашнего задания: %s"
+
+#: ../classes/teacher.php:180
+msgid "Grade & Feedback"
+msgstr "Оценка и отзыв"
+
+#: ../classes/teacher.php:419
+msgid "LePress Students Roster"
+msgstr "Список студентов LePress"
+
+#: ../classes/teacher.php:419
+msgid "Students Roster"
+msgstr "Список студентов"
+
+#: ../classes/teacher.php:420
+msgid "LePress Classbook"
+msgstr "Журнал успеваемости LePress"
+
+#: ../classes/teacher.php:420
+msgid "Classbook"
+msgstr "Журнал успеваемости "
+
+#: ../classes/teacher.php:421
+msgid "Categories / Courses"
+msgstr "Категории / Курсы"
+
+#: ../classes/teacher.php:422
+msgid "Import / Export"
+msgstr "Импорт / Экспорт"
+
+#: ../classes/teacher.php:508
+msgid "item"
+msgstr "пункт"
+
+#: ../classes/teacher.php:509
+msgid "items"
+msgstr "пункты"
+
+#: ../classes/teacher.php:510
+#: ../classes/teacher.php:935
+msgid "Assignment ending date must be greater than start date"
+msgstr "Последний день для выполнения задания должен быть больше чем первый"
+
+#: ../classes/teacher.php:609
+msgid "Course"
+msgstr "Курс"
+
+#: ../classes/teacher.php:610
+msgid "Enrollment"
+msgstr "Регистрация"
+
+#: ../classes/teacher.php:611
+msgid "Subscriptions Active/Pending"
+msgstr "Подписки Активные / В ожидании"
+
+#: ../classes/teacher.php:627
+msgid "Closed"
+msgstr "Закрытый"
+
+#: ../classes/teacher.php:629
+msgid "Yes"
+msgstr "Да"
+
+#: ../classes/teacher.php:639
+msgid "Open"
+msgstr "Открытый"
+
+#: ../classes/teacher.php:639
+msgid "Moderated"
+msgstr "Модерированный"
+
+#: ../classes/teacher.php:691
+msgid "This category is a course"
+msgstr "Эта категория является курсом"
+
+#: ../classes/teacher.php:692
+msgid "Is this category a course for students ?"
+msgstr "Является ли эта категория курсом для студентов?"
+
+#: ../classes/teacher.php:693
+msgid "Open access course"
+msgstr "Курс с открытым доступом"
+
+#: ../classes/teacher.php:694
+msgid "Can participant subscribe to this course without teacher's verification ?"
+msgstr "Могут ли учстники подписаться на этот курс без необходимости проверки преподавателем?"
+
+#: ../classes/teacher.php:695
+msgid "Course teachers"
+msgstr "Преподаватели курса"
+
+#: ../classes/teacher.php:696
+#, fuzzy
+msgid "Choose additional teachers for this course (Only current WordPress installation users)."
+msgstr "Выберите дополнительного преподавателя для этого курса (только пользователи из данной установки WordPress)"
+
+#: ../classes/teacher.php:697
+msgid "Advertise this course"
+msgstr "Показывать информацию об этом курсе в других блогах на этом сервере"
+
+#: ../classes/teacher.php:698
+msgid "Advertise this course on LePress Courses Sitewide widget ?"
+msgstr "Показывать информацию об этом курсе в виджетах Все Курсы LePress?"
+
+#: ../classes/teacher.php:699
+msgid "Close this course"
+msgstr "Закрыть этот курс."
+
+#: ../classes/teacher.php:700
+#, fuzzy
+msgid "Close this course <b>CAUTION!</b> Cannot be undone! no changes can be made to course data!"
+msgstr "Закрыть этот курс. <b>ВНИМАНИЕ!</b> Эту операцию невозможно отменить! Данные курса не изменятся."
+
+#: ../classes/teacher.php:742
+#: ../classes/teacher.php:784
+msgid "No LePress teachers found"
+msgstr "Нет преподавателей LePress"
+
+#: ../classes/teacher.php:742
+#: ../classes/teacher.php:784
+msgid "Add here"
+msgstr "Добавить здесь"
+
+#: ../classes/teacher.php:761
+msgid "You <b>cannot change</b> this, if course has <b>active subscriptions</b>"
+msgstr "Вы <b>не можете делать измененияь</b> если курс имеет<b>активных подписчиков</b>"
+
+#: ../classes/teacher.php:808
+msgid "Export"
+msgstr "Экспорт"
+
+#: ../classes/teacher.php:810
+msgid "Export current state"
+msgstr "Экспортровать текущее состояние курса"
+
+#: ../classes/teacher.php:811
+msgid "Export as template (all assignments without students related information)"
+msgstr "Экспортировать как шаблон для нового курса включая задания, но без информации о студентах"
+
+#: ../classes/teacher.php:812
+msgid "Export this course data. \"Export current state\" exports also classbook, \"Export as template\" exports assginments and creates a new template."
+msgstr "Экспортровать данные этого курса. \"Экспортровать текущее состояние курса\" Экспортровать также журнал успеваемости, \"Экспортировать как шаблон\" Экспортровать задания и и создать новый шаблон."
+
+#: ../classes/teacher.php:829
+msgid "Organization"
+msgstr "Организация"
+
+#: ../classes/teacher.php:831
+msgid "Your organization - university, college, high school, primary school etc.."
+msgstr "Ваша организация - университет, колледж, высшая школа, начальная школа и т.д."
+
+#: ../classes/teacher.php:875
+msgid "This post is an assignment"
+msgstr "Этот пост является заданием"
+
+#: ../classes/teacher.php:915
+msgid "You can only choose one course"
+msgstr "Вы можете выбрать только один курс"
+
+#: ../classes/teacher.php:920
+msgid "Chosen category is not a course"
+msgstr "Выбранная категория курсом не является"
+
+#: ../classes/teacher.php:924
+msgid "Chosen category is a closed course"
+msgstr "Выбранная категория является закрытым курсом"
+
+#: ../classes/student_include/assignments.php:31
+msgid "Start"
+msgstr "Начало"
+
+#: ../classes/student_include/assignments.php:32
+msgid "End"
+msgstr "Конец"
+
+#: ../classes/student_include/assignments.php:34
+#: ../classes/student_include/assignments.php:131
+msgid "Status"
+msgstr "Статус"
+
+#: ../classes/student_include/assignments.php:38
+#: ../classes/student_include/assignments.php:135
+msgid "Actions"
+msgstr "Действия"
+
+#: ../classes/student_include/assignments.php:55
+#: ../classes/student_include/assignments.php:150
+msgid "Ready"
+msgstr "Готов"
+
+#: ../classes/student_include/assignments.php:55
+#: ../classes/student_include/assignments.php:150
+msgid "View"
+msgstr "Вид"
+
+#: ../classes/student_include/assignments.php:59
+msgid "Draft"
+msgstr "Черновик"
+
+#: ../classes/student_include/assignments.php:61
+#: ../classes/student_include/assignments.php:152
+msgid "Not ready"
+msgstr "Не готов"
+
+#: ../classes/student_include/assignments.php:67
+#: ../classes/student_include/assignments.php:157
+msgid "View feedback"
+msgstr "Посмотреть отзыв"
+
+#: ../classes/student_include/assignments.php:73
+msgid "Edit draft"
+msgstr "Редактировать черновик"
+
+#: ../classes/student_include/assignments.php:79
+#: ../classes/student_include/assignments.php:160
+msgid "Assignment is completed at"
+msgstr "Задание выполнено"
+
+#: ../classes/student_include/assignments.php:84
+#: ../classes/student_include/assignments.php:166
+msgid "Send e-mail to"
+msgstr "Послать емейл"
+
+#: ../classes/student_include/assignments.php:90
+msgid "There are no assignments in this course."
+msgstr "Для данного курса еще нет заданий"
+
+#: ../classes/student_include/assignments.php:103
+msgid "No subscribed courses."
+msgstr "Нет подписок на курсы"
+
+#: ../classes/student_include/assignments.php:103
+msgid "Subscribe to course"
+msgstr "Подписаться на курс"
+
+#: ../classes/student_include/assignments.php:112
+msgid "Archived assignments"
+msgstr "Архивированные задания"
+
+#: ../classes/student_include/assignments.php:174
+msgid "There are no archived assignments in this course."
+msgstr "Архивированные задания для этого курса отсутствуют"
+
+#: ../classes/student_include/assignments.php:187
+msgid "No archived courses."
+msgstr "Нет архивированных курсов"
+
+#: ../classes/student_include/class-my_subscriptions.php:121
+msgid "You have successfully subscribed to course"
+msgstr "Вы успешно подписались на курс"
+
+#: ../classes/student_include/class-my_subscriptions.php:128
+msgid "This course does not exist"
+msgstr "Такого курса не существует"
+
+#: ../classes/student_include/class-my_subscriptions.php:131
+msgid "Invitation key is expired or sent for another email"
+msgstr "Срок секретного ключа истек или он был послан на другой емейл"
+
+#: ../classes/student_include/class-my_subscriptions.php:137
+msgid "Could not establish secure connection"
+msgstr "Невозможно установить безопасное соединение"
+
+#: ../classes/student_include/class-my_subscriptions.php:143
+msgid "Subscriber with the same email address already subcribed"
+msgstr "Подписчик с таким же емейл адресом уже существует"
+
+#: ../classes/student_include/class-my_subscriptions.php:146
+msgid "You cannot subcribe on your own course"
+msgstr "Вы не можете подписаться на собственный курс"
+
+#: ../classes/student_include/class-my_subscriptions.php:149
+msgid "Something went wrong... Try again"
+msgstr "Что-то пошло не так... Попробуйте еще раз"
+
+#: ../classes/student_include/class-my_subscriptions.php:199
+msgid "You have successfully unsubscribed from the course."
+msgstr "Вы успешно отписались от этого курса"
+
+#: ../classes/student_include/class-my_subscriptions.php:202
+msgid "Subscription found, but could not remove: HTTP Status 500"
+msgstr "Подписка существует,но не может быть удалена: HTTP Status 500"
+
+#: ../classes/student_include/class-my_subscriptions.php:209
+msgid "Unsubscribing failed: HTTP Status 412"
+msgstr "Не удалось отписаться от курса: HTTP Status 412"
+
+#: ../classes/student_include/student-widget.php:28
+msgid "-- My subscriptions --"
+msgstr "-- Мои подписки --"
+
+#: ../classes/student_include/subscriptions.php:33
+msgid "Subscribed courses"
+msgstr "Мои курсы"
+
+#: ../classes/student_include/subscriptions.php:43
+#: ../classes/teacher_include/subscriptions.php:207
+msgid "Results"
+msgstr "Результаты"
+
+#: ../classes/student_include/subscriptions.php:56
+#: ../classes/teacher_include/subscriptions.php:230
+msgid "View assignments"
+msgstr "Смотреть задания"
+
+#: ../classes/student_include/subscriptions.php:63
+msgid "Unsubscribe"
+msgstr "Отписаться"
+
+#: ../classes/student_include/subscriptions.php:67
+msgid "There is no subscribed courses."
+msgstr "Нет подписок на курсы"
+
+#: ../classes/student_include/subscriptions.php:80
+msgid "Awaiting authorization to courses"
+msgstr "Курсы с ожиданием авторизации"
+
+#: ../classes/student_include/subscriptions.php:90
+#: ../classes/student_include/subscriptions.php:135
+msgid "Address of Course"
+msgstr "Адрес курса"
+
+#: ../classes/student_include/subscriptions.php:91
+#: ../classes/student_include/subscriptions.php:136
+#: ../classes/teacher_include/subscriptions.php:270
+msgid "Message"
+msgstr "Сообщение"
+
+#: ../classes/student_include/subscriptions.php:92
+msgid "Action"
+msgstr "Действие"
+
+#: ../classes/student_include/subscriptions.php:105
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ../classes/student_include/subscriptions.php:109
+msgid "There is no pending authorization requests."
+msgstr "Нет активных запросов на авторизацию"
+
+#: ../classes/student_include/subscriptions.php:122
+msgid "Declined courses"
+msgstr "Отклоненные курсы"
+
+#: ../classes/student_include/subscriptions.php:128
+msgid "Clear"
+msgstr "Очистить"
+
+#: ../classes/student_include/subscriptions.php:153
+msgid "There is no declined courses."
+msgstr "Нет отклоненных курсов"
+
+#: ../classes/student_include/subscriptions.php:169
+msgid "Subscribing..."
+msgstr "Подписка..."
+
+#: ../classes/student_include/subscriptions.php:181
+msgid "Subscribe to Course"
+msgstr "Подписаться на курс"
+
+#: ../classes/student_include/subscriptions.php:191
+msgid "Address of Course:"
+msgstr "Адрес курса:"
+
+#: ../classes/student_include/subscriptions.php:193
+msgid "Blog's Category address, i.e.: http://teacher.wordpress.org/somecourse"
+msgstr "Адрес категории блога, например: http://teacher.wordpress.org/somecourse"
+
+#: ../classes/student_include/subscriptions.php:199
+msgid "Message to Teacher:"
+msgstr "Соощение учителю"
+
+#: ../classes/student_include/subscriptions.php:199
+#: ../classes/teacher_include/subscriptions.php:391
+msgid "optional"
+msgstr "необязательно"
+
+#: ../classes/student_include/subscriptions.php:201
+msgid "Optional. Enter here text if you need to say something related to registration to this course."
+msgstr "Необязательно. Здесь можно написать пояснения связанные с регистрацией на курс."
+
+#: ../classes/teacher_include/class-course-meta.php:81
+#, php-format
+msgid "New assignment - %s"
+msgstr "Новое задание - %s"
+
+#: ../classes/teacher_include/class-course-meta.php:82
+#, php-format
+msgid "New activity on course - %s"
+msgstr "Новое событие на курсе - %s"
+
+#: ../classes/teacher_include/class-course-meta.php:83
+#, php-format
+msgid "New assignment: %s"
+msgstr "Новое задание - %s"
+
+#: ../classes/teacher_include/class-course-meta.php:84
+#, php-format
+msgid "Excerpt: %s"
+msgstr "Краткое содержание: %s"
+
+#: ../classes/teacher_include/class-course-meta.php:85
+#, php-format
+msgid "Deadline: %s"
+msgstr "Срок исполнения: %s"
+
+#: ../classes/teacher_include/class-course-meta.php:239
+msgid "You are no longer a LePress teacher"
+msgstr "Вы больше не преподаватель LePress"
+
+#: ../classes/teacher_include/class-course-meta.php:240
+msgid "You are no longer a LePress teacher on blog"
+msgstr "Вы больше не преподаватель LePress в блоге"
+
+#: ../classes/teacher_include/class-course-meta.php:247
+msgid "You have been added as a LePress teacher"
+msgstr "Вы были добавлены как преподаватель LePress"
+
+#: ../classes/teacher_include/class-course-meta.php:248
+msgid "You have been added as a LePress teacher on blog"
+msgstr "Вы были добавлены как преподаватель LePress в блоге"
+
+#: ../classes/teacher_include/class-course-meta.php:365
+#: ../classes/teacher_include/class-course-meta.php:609
+msgid "You have been unsubscribed from course"
+msgstr "Вы отписались от курса"
+
+#: ../classes/teacher_include/class-course-meta.php:603
+msgid "You have been accepted to course"
+msgstr "Вы были зачислены на курс"
+
+#: ../classes/teacher_include/class-course-meta.php:620
+msgid "You have been declined to course"
+msgstr "Вы были отчислены с курса"
+
+#: ../classes/teacher_include/class-course-meta.php:865
+msgid "You have been invited to course"
+msgstr "Вы приглашены на курс"
+
+#: ../classes/teacher_include/classbook.php:30
+msgid "Assignments marked as <b>drafts</b> are <b>not visible</b> to the students."
+msgstr "Задания отмеченные как <b>черновик</b> студентам <b>не видны</b>."
+
+#: ../classes/teacher_include/classbook.php:63
+#: ../classes/teacher_include/subscriptions.php:183
+msgid "No courses"
+msgstr "Нет курсов"
+
+#: ../classes/teacher_include/classbook.php:93
+msgid "Ungraded"
+msgstr "Обновлен"
+
+#: ../classes/teacher_include/classbook.php:106
+msgid "There is no assessments in this course."
+msgstr "В этом курсе нет заданий "
+
+#: ../classes/teacher_include/classbook.php:114
+msgid "View assignment"
+msgstr "Посмотреть задание"
+
+#: ../classes/teacher_include/classbook.php:125
+msgid "Available posts"
+msgstr "Доступные сообщения"
+
+#: ../classes/teacher_include/classbook.php:126
+msgid "If post is in <b>multiple categories</b>, it is <b>moved to current</b> chosen category only."
+msgstr "Если пост относится к <b>нескольким категориям</b>, он перемещен только в <b>текущую</b> категорию."
+
+#: ../classes/teacher_include/classbook.php:137
+msgid "Title"
+msgstr "Заголовок"
+
+#: ../classes/teacher_include/classbook.php:167
+msgid "View post"
+msgstr "Смотреть сообщение"
+
+#: ../classes/teacher_include/classbook.php:172
+msgid "No regular posts in this course"
+msgstr "Нет обычных сообщений в этом курсе"
+
+#: ../classes/teacher_include/classbook.php:181
+msgid "Make into assignment"
+msgstr "Превратить в задание"
+
+#: ../classes/teacher_include/import_export.php:14
+msgid "Template successfully exported"
+msgstr "Шаблон успешно экспортирован"
+
+#: ../classes/teacher_include/import_export.php:16
+msgid "Template could not be exported"
+msgstr "Шаблон не может быть экспортирован"
+
+#: ../classes/teacher_include/import_export.php:28
+msgid "Template successfully removed"
+msgstr "Шаблон успешно удален"
+
+#: ../classes/teacher_include/import_export.php:30
+msgid "Error occured, could not remove template, try again..."
+msgstr "Ошибка, невозможно удалить шаблон, попробуйте снова..."
+
+#: ../classes/teacher_include/import_export.php:45
+msgid "Template successfully imported"
+msgstr "Шаблон успешно импортирован"
+
+#: ../classes/teacher_include/import_export.php:47
+msgid "Could not import template, try again..."
+msgstr "Невозможно импортровать шаблон. Попробуйте снова..."
+
+#: ../classes/teacher_include/import_export.php:66
+msgid "Active courses"
+msgstr "Активные курсы"
+
+#: ../classes/teacher_include/import_export.php:70
+#: ../classes/teacher_include/import_export.php:98
+#: ../classes/teacher_include/manage-assignment.php:60
+#: ../classes/teacher_include/subscriptions.php:204
+#: ../classes/teacher_include/subscriptions.php:266
+msgid "Name"
+msgstr "Имя"
+
+#: ../classes/teacher_include/import_export.php:87
+#: ../classes/teacher_include/import_export.php:129
+msgid "No active courses"
+msgstr "Нет активных курсов"
+
+#: ../classes/teacher_include/import_export.php:94
+msgid "Available templates"
+msgstr "Доступные шаблоны"
+
+#: ../classes/teacher_include/import_export.php:99
+msgid "Import / Export date"
+msgstr "Импортировать / Экспортровать дату"
+
+#: ../classes/teacher_include/import_export.php:109
+msgid "Use template"
+msgstr "Использовать шаблон"
+
+#: ../classes/teacher_include/import_export.php:110
+msgid "Download template"
+msgstr "Загрузить шаблон"
+
+#: ../classes/teacher_include/import_export.php:111
+msgid "Are you sure you want remove this template ?"
+msgstr "Вы уверены, что хотите удалить этот шаблон?"
+
+#: ../classes/teacher_include/import_export.php:111
+msgid "Remove template"
+msgstr "Удалить шаблон"
+
+#: ../classes/teacher_include/import_export.php:132
+msgid "Import"
+msgstr "Импортровать"
+
+#: ../classes/teacher_include/import_export.php:141
+msgid "No templates found"
+msgstr "Нет шаблонов"
+
+#: ../classes/teacher_include/import_export.php:150
+msgid "Download all templates as single file"
+msgstr "Загрузить все шаблоныкак отдельный файл"
+
+#: ../classes/teacher_include/import_export.php:156
+msgid "Upload template or single templates file"
+msgstr "Выгрузить шаблон или файл содержащий несколько шаюлонов"
+
+#: ../classes/teacher_include/import_export.php:158
+msgid "Upload template file"
+msgstr "Выгрузить шаблон"
+
+#: ../classes/teacher_include/import_export.php:158
+msgid "Upload"
+msgstr "Выгрузить"
+
+#: ../classes/teacher_include/manage-assignment.php:10
+msgid "Manage assignment"
+msgstr "Управлять заданиями"
+
+#: ../classes/teacher_include/manage-assignment.php:22
+#: ../classes/teacher_include/send-feedback.php:77
+msgid "Go back"
+msgstr "Назад"
+
+#: ../classes/teacher_include/manage-assignment.php:66
+#: ../classes/teacher_include/send-feedback.php:156
+msgid "Feedback"
+msgstr "Отзыв"
+
+#: ../classes/teacher_include/manage-assignment.php:69
+msgid "Submission time"
+msgstr "Время представления"
+
+#: ../classes/teacher_include/manage-assignment.php:89
+msgid "Accomplished"
+msgstr "Выполнен"
+
+#: ../classes/teacher_include/manage-assignment.php:98
+msgid "Send e-mail"
+msgstr "Послать емейл"
+
+#: ../classes/teacher_include/manage-assignment.php:105
+msgid "There is no subscribed students who need to accomplish this assessment."
+msgstr "Нет студентов которым необходимо выполнить это задание"
+
+#: ../classes/teacher_include/manage-assignment.php:117
+#: ../classes/teacher_include/manage-assignment.php:120
+#: ../classes/teacher_include/send-feedback.php:113
+#: ../classes/teacher_include/send-feedback.php:213
+#: ../classes/teacher_include/send-feedback.php:216
+msgid "This is somewhat embarrasing, isn't it?"
+msgstr "Это что-то обескураживающее, не так ли?"
+
+#: ../classes/teacher_include/manage-assignment.php:117
+#: ../classes/teacher_include/manage-assignment.php:120
+#: ../classes/teacher_include/send-feedback.php:113
+#: ../classes/teacher_include/send-feedback.php:213
+#: ../classes/teacher_include/send-feedback.php:216
+msgid "It seems we can't find what you're looking for."
+msgstr "Не получается найти то, что вы ищите."
+
+#: ../classes/teacher_include/send-feedback.php:39
+msgid "Your feedback to student {name} is sent. Redirecting to the assignment page..."
+msgstr "Ваш отзыв отправлен студенту {name}. Пренаправляем на страницу с заданием..."
+
+#: ../classes/teacher_include/send-feedback.php:47
+msgid "You are <b>not teacher</b> on this course, sorry... Cannot allow sending feedback."
+msgstr "Невозможно послать отзыв, поскольку вы не <b>учитель</b> этого курса... "
+
+#: ../classes/teacher_include/send-feedback.php:52
+msgid "Your feedback was not sent, because course of this assignment is set as closed"
+msgstr "Ваш отзыв не был послан, поскольку курс с жтим заданием уже закрыт"
+
+#: ../classes/teacher_include/send-feedback.php:55
+msgid "No changes detected, not sending feeback. Redirecting to the assignment page..."
+msgstr "Изменений не обнаружено, отзыв не отправлен.  Пренаправляем на страницу с заданием..."
+
+#: ../classes/teacher_include/send-feedback.php:59
+msgid "Your feedback to student {name} was <b>not sent</b>. Try again..."
+msgstr "Ваш отзыв студенту {name} <b>не был отправлен</b>. Попробуйте еще раз, пожалуйста..."
+
+#: ../classes/teacher_include/send-feedback.php:79
+msgid "Write assesment feedback"
+msgstr "Написать отзыв на работу"
+
+#: ../classes/teacher_include/send-feedback.php:100
+msgid "Sorry, post not found..."
+msgstr "Извините, такого поста не существует..."
+
+#: ../classes/teacher_include/send-feedback.php:103
+#: ../classes/teacher_include/send-feedback.php:147
+msgid "Redirecting to the assignment page..."
+msgstr "Пренаправляем на страницу с заданием..."
+
+#: ../classes/teacher_include/send-feedback.php:132
+msgid "Submission of"
+msgstr "Представление задания "
+
+#: ../classes/teacher_include/send-feedback.php:182
+#, fuzzy
+msgid "Feedback to submission"
+msgstr "Отзыв на работу "
+
+#: ../classes/teacher_include/subscriptions.php:70
+#, php-format
+msgid "Course \"%s\" is closed, cannot invite students"
+msgstr "Курс \"%s\" закончен, невозможно пригласить студентов"
+
+#: ../classes/teacher_include/subscriptions.php:108
+msgid "You have unsubscribed student"
+msgstr "Вы удалили студента с курса "
+
+#: ../classes/teacher_include/subscriptions.php:118
+#, php-format
+msgid "You have accepted %d student."
+msgstr "Вы приняли на курс %d студента"
+
+#: ../classes/teacher_include/subscriptions.php:118
+#, php-format
+msgid "You have accepted %d students."
+msgstr "Вы приняли на курс %d студентов"
+
+#: ../classes/teacher_include/subscriptions.php:124
+#, php-format
+msgid "You have declined %d student."
+msgstr "Вы отказали в подписке %d студенту"
+
+#: ../classes/teacher_include/subscriptions.php:124
+#, php-format
+msgid "You have declined %d students."
+msgstr "Вы отказали в подписке %d студентам"
+
+#: ../classes/teacher_include/subscriptions.php:130
+#, php-format
+msgid "You have invited %d student."
+msgstr "Вы пригласили на курс %d студент"
+
+#: ../classes/teacher_include/subscriptions.php:130
+#, php-format
+msgid "You have invited %d students."
+msgstr "Вы пригласили на курс %d студентов"
+
+#: ../classes/teacher_include/subscriptions.php:136
+#, php-format
+msgid "%d student email was not valid."
+msgstr "Емейл студента %d не действительный"
+
+#: ../classes/teacher_include/subscriptions.php:136
+#, php-format
+msgid "%d students emails were not valid."
+msgstr "Емейл студентов %d не действительный"
+
+#: ../classes/teacher_include/subscriptions.php:142
+msgid "Subscribed students"
+msgstr "Подписанные студенты"
+
+#: ../classes/teacher_include/subscriptions.php:151
+msgid "Course (Category)"
+msgstr "Курс (Категория)"
+
+#: ../classes/teacher_include/subscriptions.php:193
+msgid "This course is closed, no changes can be made!"
+msgstr "Невозможно сделать изменения, этот курс закрыт."
+
+#: ../classes/teacher_include/subscriptions.php:205
+#: ../classes/teacher_include/subscriptions.php:267
+msgid "E-mail"
+msgstr "Емейл"
+
+#: ../classes/teacher_include/subscriptions.php:209
+msgid "Blog"
+msgstr "Блог"
+
+#: ../classes/teacher_include/subscriptions.php:235
+msgid "Remove"
+msgstr "Удалить"
+
+#: ../classes/teacher_include/subscriptions.php:240
+msgid "There are no participants on selected course."
+msgstr "В выбраном курсе участники отсутствуют"
+
+#: ../classes/teacher_include/subscriptions.php:254
+msgid "Students awaiting authorization"
+msgstr "Студенты, ожидающие авторизации"
+
+#: ../classes/teacher_include/subscriptions.php:272
+msgid "Accept"
+msgstr "Подтвердить"
+
+#: ../classes/teacher_include/subscriptions.php:274
+msgid "Decline"
+msgstr "Отказать"
+
+#: ../classes/teacher_include/subscriptions.php:276
+msgid "Response"
+msgstr "Ответить"
+
+#: ../classes/teacher_include/subscriptions.php:309
+msgid "There is no pending authorizations"
+msgstr "Нет авторизаций в ожидании"
+
+#: ../classes/teacher_include/subscriptions.php:311
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#: ../classes/teacher_include/subscriptions.php:327
+#: ../classes/teacher_include/subscriptions.php:399
+msgid "Invite students"
+msgstr "Пригласить студентов"
+
+#: ../classes/teacher_include/subscriptions.php:337
+msgid "Import list of students"
+msgstr "Импортировать список студентов"
+
+#: ../classes/teacher_include/subscriptions.php:339
+msgid "Text file with emails separated by new line can upload here."
+msgstr "Здесь можно выгрузить текстовый файл со списком емейлов."
+
+#: ../classes/teacher_include/subscriptions.php:345
+msgid "Or add manually:"
+msgstr "Или добавлены в ручную:"
+
+#: ../classes/teacher_include/subscriptions.php:345
+msgid "Seperate with new row"
+msgstr "Разделять новой строкой"
+
+#: ../classes/teacher_include/subscriptions.php:353
+msgid "Separate each email with new line."
+msgstr "Отделять каждый емейл новой строкой"
+
+#: ../classes/teacher_include/subscriptions.php:359
+msgid "Category (Course) to invite:"
+msgstr "Категория (Курс) для приглашения:"
+
+#: ../classes/teacher_include/subscriptions.php:378
+msgid "Please add categories as course or mark existing category as a course"
+msgstr "Пожалуйста добавьте категорию-курс или сделайте курсом существующую категорию"
+
+#: ../classes/teacher_include/subscriptions.php:378
+msgid "here"
+msgstr "здесь"
+
+#: ../classes/teacher_include/subscriptions.php:381
+msgid "Mark the courses to which you want to invite students."
+msgstr "Отметьте курсы на которые вы хотите пригласить студентов"
+
+#: ../classes/teacher_include/subscriptions.php:391
+msgid "Message to student/s:"
+msgstr "Сообщение студенту/ам:"
+
+#: ../classes/teacher_include/subscriptions.php:393
+msgid "Optional. Here you can write some invitation and additional information to identify your email for student."
+msgstr "Необязательное поле. Здесь вы может написать для студентов текст, сопровождающий ваше приглашение."
+
+#: ../classes/teacher_include/teacher-widget.php:24
+msgid "-- My courses --"
+msgstr "-- Мои курсы --"
+
+#~ msgid "LePress Manual"
+#~ msgstr "Руководство LePress"
+
+#~ msgid "What is LePress?"
+#~ msgstr "Что такое LePress?"
+
+#~ msgid "You have not configured your plugin"
+#~ msgstr ""
+#~ "Вы еще не сконфигурировали LePress. Перейдите пожалуйста в "
+#~ "административный интерфейс, меню Настройки -> LePress и закончите "
+#~ "конфигурацию"
+
+#~ msgid "Enter your blog URL"
+#~ msgstr ""
+#~ "Введите URL адрес вашего блога, например http://www.somemyblog.com/student"
+
+#~ msgid "Export as template"
+#~ msgstr ""
+#~ "Экспортровать шаблон курса (все задания учителя без информации о "
+#~ "студентах для повторения курса с другой группой)"

@@ -1,0 +1,34 @@
+/* Global LePress CSS file */
+
+/* Override jQuery UI datepicker font-size */
+
+.ui-datepicker {
+	font-size: 0.85em;	
+}
+
+.ui-datepicker a {
+	font-size: 0.85em;	
+}
+
+/* Fix visibility issue on datepicker 
+ * Initially has to be hidden, otherwise shown bottom of page, left corner 
+ */
+
+#ui-datepicker-div {
+	display:none;
+}
+
+/* Change some input styles on admin interface */
+
+.lepress-field input {
+	width: auto !important;
+	margin-right: 3px;
+}
+
+.lepress-field label {
+	display: inline-block !important;
+}
+
+.lepress-edit-form-field {
+	width: auto !important;
+}

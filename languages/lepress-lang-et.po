@@ -1,0 +1,1322 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LePress 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-02 16:02+0300\n"
+"PO-Revision-Date: 2011-11-02 16:02+0300\n"
+"Last-Translator: Raido Kuli <kuli@hk.tlu.ee>\n"
+"Language-Team: Tallinn University Centre of Educational Technology\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Estonian\n"
+"X-Poedit-Country: Estonia\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../main.php:86
+msgid "Choose your role"
+msgstr "Vali roll"
+
+#: ../main.php:88
+msgid "Display names as"
+msgstr "Nimede kuvamise viis"
+
+#: ../main.php:126
+msgid "Please edit your profile and fill <b>Firstname</b> and <b>Lastname</b> fields, otherwise some <b>features</b> of LePress are <b>disabled</b>"
+msgstr "Palun redigeeri oma profiili ja täida väljad <b>Eesnimi</b> ja <b>Perekonnamimi</b>, muul juhul on LePress funktsionaalsus piiratud."
+
+#: ../main.php:126
+msgid "Edit profile"
+msgstr "Muuda profiili"
+
+#: ../main.php:220
+msgid "Student"
+msgstr "Õpilane"
+
+#: ../main.php:221
+msgid "Teacher"
+msgstr "Õpetaja"
+
+#: ../main.php:231
+msgid "Given name Surname"
+msgstr "Eesnimi Perenimi"
+
+#: ../main.php:232
+msgid "Surname Given name"
+msgstr "Perenimi Eesnimi"
+
+#: ../main.php:240
+msgid "General settings"
+msgstr "Üldseaded"
+
+#: ../main.php:255
+msgid "LePress settings"
+msgstr "LePressi seaded"
+
+# No need to translate, this is our application name
+#: ../main.php:255
+msgid "LePress"
+msgstr "LePress"
+
+#: ../main.php:272
+msgid "Save"
+msgstr "Salvesta"
+
+#: ../main.php:418
+msgid "Wipe data on plugin deactivation"
+msgstr "Kustuta andmebaas"
+
+#: ../main.php:428
+msgid "CAUTION! ALL THE DATA WILL BE DELETED!"
+msgstr "HOIATUS! KÕIK ANDMED KUSTUTATAKSE!"
+
+#: ../main.php:428
+msgid "If checked, LePress database tables will be deleted. Data saved as Wordpress metadata will not be altered."
+msgstr "Kui valitud, kustutatakse plugina deaktiveerimisel kõik LePressi poolt loodud andmebaasi tabelid. Wordpressi metaandmetena salvestatud infot ei kustutata."
+
+#: ../main.php:436
+msgid "Advanced"
+msgstr "Lisa seadistused"
+
+#: ../service.php:47
+#: ../service.php:54
+msgid "Requested student submission was not found in student's blog"
+msgstr "Päritud vastust ei suudetud õpilase ajaveebist laadida."
+
+#: ../service.php:56
+msgid "Could not load post content, try again..."
+msgstr "Ülesande vastust ei suudetud laadida, proovige uuesti..."
+
+#: ../service.php:138
+msgid "Requested student submission could not be loaded, try again..."
+msgstr "Päritud vastust ei suudetud õpilase ajaveebist laadida, proovige uuesti..."
+
+#: ../service.php:226
+msgid "You have successfully confirmed your LePress course subscription!"
+msgstr "Oled kursusele registreeritud!"
+
+#: ../service.php:228
+#: ../classes/student_include/class-my_subscriptions.php:140
+msgid "You are already subscribed on this course"
+msgstr "Oled selle kursusega juba liitunud"
+
+#: ../service.php:230
+#: ../widget.php:76
+#: ../classes/student_include/class-my_subscriptions.php:134
+msgid "This course does not accept any new subscriptions"
+msgstr "Valitud kursus on lõppenud, registreerimine ebaõnnestus"
+
+#: ../service.php:232
+#: ../widget.php:75
+msgid "Subscribing failed"
+msgstr "Registreerumine ebaõnnestus"
+
+#: ../service.php:232
+#: ../widget.php:75
+msgid "Your profile is not filled (firstname/lastname)"
+msgstr "Sinu profiil ei ole täidetud (eesnimi/perekonnanimi)"
+
+#: ../service.php:234
+msgid "Confirming your LePress subscription failed! Try again..."
+msgstr "Registreerumine ebaõnnestus! Proovi uuesti..."
+
+#: ../widget-courses-sitewide.php:15
+msgid "LePress Courses Sitewide"
+msgstr "LePressi kursused"
+
+#: ../widget-courses-sitewide.php:15
+msgid "Display LePress courses on the network, on your sidebar."
+msgstr "Kuvab võrgustikus olevate LePressi kursuste nimekirja."
+
+#: ../widget-courses-sitewide.php:63
+msgid "Active LePress Courses"
+msgstr "LePressi kursused"
+
+#: ../widget-courses-sitewide.php:131
+msgid "No active courses found on the network"
+msgstr "Võrgustikust ei leitud ühtegi kursust"
+
+#: ../widget-courses-sitewide.php:156
+msgid "Simple widget to display LePress courses on the network"
+msgstr "Lihtne vidin, mis kuvab võrgustikus olevad LePressi kursused."
+
+#: ../widget.php:21
+msgid "LePress plugin widget"
+msgstr "LePressi plugina vidin."
+
+#: ../widget.php:71
+msgid "Already subscribed ?"
+msgstr "Juba liitunud ?"
+
+#: ../widget.php:72
+msgid "Success"
+msgstr "Oled liitunud"
+
+#: ../widget.php:73
+msgid "Blog URL not entered"
+msgstr "Ajaveebi URL sisestamata"
+
+#: ../widget.php:74
+msgid "Blog URL not valid"
+msgstr "Vigane ajaveebi URL"
+
+#: ../widget.php:219
+msgid "You have not configured your plugin. Please login to administrative dashboard, go to Settings -> LePress and finish LePress configuration"
+msgstr "Sa ei ole seadistanud oma LePressi moodulit. Saad seda teha halduses, Seaded -> LePress."
+
+#: ../widget.php:241
+msgid "By default"
+msgstr "Vaikimisi"
+
+#: ../widget.php:243
+msgid "Collapse participants list"
+msgstr "Ahenda kaaslaste nimekiri"
+
+#: ../widget.php:245
+msgid "Collapse assignments list (teacher)"
+msgstr "Ahenda ülesannete nimekiri (õpetaja)"
+
+#: ../wp-calendar-forked.php:203
+#: ../wp-calendar-forked.php:211
+#, php-format
+msgid "View posts for %1$s %2$s"
+msgstr "Vaata postitusi %1$s %2$s"
+
+#: ../wp-calendar-forked.php:318
+#: ../wp-calendar-forked.php:519
+msgid "Work submitted"
+msgstr "Töö esitatud"
+
+#: ../wp-calendar-forked.php:324
+#: ../wp-calendar-forked.php:525
+msgid "Edit work"
+msgstr "Muuda tööd"
+
+#: ../wp-calendar-forked.php:328
+#: ../wp-calendar-forked.php:529
+#: ../classes/student_include/assignments.php:75
+msgid "Submit work"
+msgstr "Esita töö"
+
+#: ../wp-calendar-forked.php:336
+msgid "View assignment on teacher's blog"
+msgstr "Vaata ülesannet õpetaja ajaveebis"
+
+#: ../wp-calendar-forked.php:338
+#: ../wp-calendar-forked.php:535
+msgid "draft"
+msgstr "mustand"
+
+#: ../wp-calendar-forked.php:353
+#: ../wp-calendar-forked.php:490
+msgid "Send feedback"
+msgstr "Saada tagasiside"
+
+#: ../wp-calendar-forked.php:357
+#: ../wp-calendar-forked.php:494
+msgid "Change feedback"
+msgstr "Muuda tagasisidet"
+
+#: ../wp-calendar-forked.php:362
+#: ../wp-calendar-forked.php:499
+msgid "Not accomplished"
+msgstr "Sooritamata"
+
+#: ../wp-calendar-forked.php:453
+#: ../classes/student.php:454
+#: ../classes/student.php:563
+msgid "Assignments"
+msgstr "Ülesanded"
+
+#: ../wp-calendar-forked.php:544
+msgid "There are no assignments in this month."
+msgstr "Selles kuus ülesandeid ei ole."
+
+#: ../wp-calendar-forked.php:551
+msgid "Graduation"
+msgstr "Lõpetamine"
+
+#: ../wp-calendar-forked.php:552
+msgid "My progress"
+msgstr "Minu progress"
+
+#: ../wp-calendar-forked.php:582
+#: ../classes/student.php:352
+#: ../classes/student.php:543
+msgid "Expand"
+msgstr "Laienda"
+
+#: ../wp-calendar-forked.php:583
+msgid "Collapse"
+msgstr "Ahenda"
+
+#: ../wp-calendar-forked.php:609
+msgid "Participants"
+msgstr "Osalejad"
+
+#: ../wp-calendar-forked.php:639
+msgid "There are no participants in this course."
+msgstr "Sellel kursusel osalejaid ei ole."
+
+#: ../wp-calendar-forked.php:658
+msgid "Teacher(s)"
+msgstr "Õpetaja(d)"
+
+#: ../wp-calendar-forked.php:676
+msgid "Oops, teacher(s) missing..."
+msgstr "Oih, õpetajaid ei ole ..."
+
+#: ../wp-calendar-forked.php:720
+#: ../wp-calendar-forked.php:737
+msgid "Subscribe"
+msgstr "Liitu"
+
+#: ../wp-calendar-forked.php:726
+msgid "Enter your blog URL (http://www.example.com/blog)"
+msgstr "Sinu ajaveebi URL (http://www.ajaveeb.ee/blog/)"
+
+#: ../wp-calendar-forked.php:729
+msgid "We have discovered your first active blog with LePress student roll enabled."
+msgstr "Leidsime võrgustikust sinu blogi aktiivse LePress-i õpilase rolliga."
+
+#: ../wp-calendar-forked.php:731
+msgid "By clicking \"Subscribe\", you will be subscribed to the course using found blog."
+msgstr "Vajutades \"Liitu\", registreeritakse sind valitud kursusele."
+
+#: ../classes/student.php:254
+#: ../classes/student_include/assignments.php:36
+#: ../classes/student_include/assignments.php:133
+msgid "Grade"
+msgstr "Hinne"
+
+#: ../classes/student.php:350
+msgid "Submission for"
+msgstr "Vastus ülesandele"
+
+#: ../classes/student.php:351
+msgid "Hide"
+msgstr "Peida"
+
+#: ../classes/student.php:452
+msgid "Courses"
+msgstr "Kursused"
+
+#: ../classes/student.php:453
+msgid "Classmates"
+msgstr "Klassikaaslased"
+
+#: ../classes/student.php:463
+msgid "Adjust cache update interval (student)"
+msgstr "Andmete värskenduse intervallid (õpilane)"
+
+#: ../classes/student.php:472
+msgid "every minute"
+msgstr "iga minuti järel"
+
+#: ../classes/student.php:473
+msgid "every 2 minutes"
+msgstr "iga 2 minuti järel"
+
+#: ../classes/student.php:474
+msgid "every 5 minutes"
+msgstr "iga 5 minuti järel"
+
+#: ../classes/student.php:475
+msgid "every 10 minutes"
+msgstr "iga 10 minuti järel"
+
+#: ../classes/student.php:476
+msgid "every 15 minutes"
+msgstr "iga 15 minuti järel"
+
+#: ../classes/student.php:477
+msgid "every 30 minutes"
+msgstr "iga 30 minuti järel"
+
+#: ../classes/student.php:478
+msgid "every hour"
+msgstr "iga tund"
+
+#: ../classes/student.php:479
+msgid "every day"
+msgstr "kord päevas"
+
+#: ../classes/student.php:492
+msgid "How often to update course metadata info from teachers blogs ? This field is <b>recommended</b> to set greater or equal to 1 hour."
+msgstr "Kui tihti uuendata kursuste metaandmeid õpetaja ajaveebist ? <b>Soovituslik</b> väärtus on 1 tund või harvemini."
+
+#: ../classes/student.php:495
+msgid "How often to update classmates info from teachers blogs ? This field is <b>recommended</b> to set greater or equal to 15 minutes."
+msgstr "Kui tihti uuendada klassikaaslaste metaandmeid õpetaja vajaveebist ? <b>Soovituslik</b> väärtus on iga 15 minuti järel või harvemini."
+
+#: ../classes/student.php:498
+msgid "How often to update list of assignments from teachers blogs ? This field is <b>recommended</b> to set less than 15 minutes."
+msgstr "Kui tihti uuendada ülesannete nimekirja õpetaja ajaveebist ? <b>Soovituslik</b> väärtus on iga 15 minuti järel või tihedamini."
+
+#: ../classes/student.php:513
+msgid "Submission"
+msgstr "Ülesanne"
+
+#: ../classes/student.php:537
+#: ../classes/student_include/assignments.php:30
+#: ../classes/student_include/assignments.php:129
+msgid "Assignment"
+msgstr "Ülesanne"
+
+#: ../classes/student.php:538
+#: ../classes/teacher.php:871
+msgid "Start date"
+msgstr "Algus kuupäev"
+
+#: ../classes/student.php:539
+#: ../classes/teacher.php:872
+msgid "End date"
+msgstr "Lõpu kuupäev"
+
+#: ../classes/student.php:540
+msgid "Excerpt"
+msgstr "Lühikokkuvõte"
+
+#: ../classes/student.php:544
+msgid "Your submission will not be sent until you <b>publish</b> your post."
+msgstr "Vastust ei saadeta enne, kui postitus on märgitud <b>avaldatuks</b>."
+
+# No need to translate, Wordpress language file does the job
+#: ../classes/student.php:545
+msgid "Public"
+msgstr "Avaldatud"
+
+# No need to translate, Wordpress language file does the job
+#: ../classes/student.php:545
+msgid "Private"
+msgstr "Privaatne"
+
+#: ../classes/student.php:545
+msgid "Hide post from other course members"
+msgstr "Ära kuva postitust kursusekaaslastele"
+
+#: ../classes/student.php:547
+msgid "You have already answered this assignment!"
+msgstr "Oled sellele ülesandele vastuse saatnud!"
+
+#: ../classes/student.php:547
+msgid "Edit previous post"
+msgstr "Muuda eelmist postitust"
+
+#: ../classes/student.php:551
+msgid "Could not load assignment data"
+msgstr "Ülesande metaandmeid ei suudetud pärida"
+
+#: ../classes/student.php:562
+msgid "Manage my subscriptions"
+msgstr "Minu kursused"
+
+#: ../classes/student.php:562
+msgid " My subscriptions"
+msgstr "Minu kursused"
+
+#: ../classes/student.php:563
+#: ../classes/student_include/assignments.php:11
+msgid "Manage assignments"
+msgstr "Minu ülesanded"
+
+#: ../classes/teacher.php:43
+msgid "LePress Teacher"
+msgstr "LePress õpetaja"
+
+#: ../classes/teacher.php:87
+msgid "Something went terribly wrong, could not fetch template, try again..."
+msgstr "Midagi läks valesti, malli ei suudetud laadida, proovige uuesti..."
+
+#: ../classes/teacher.php:158
+#, php-format
+msgid "You are trying to post a comment into LePress assignment post. Please note that you still haven't submitted your work. If you like to submit your work, please submit it %s; you will be redirected to your LePress dashboard."
+msgstr "See postitus on ülesanne ja sa ei ole veel oma tööd esitanud. Esita oma töö vajutades %s. Sind suunatakse sinu ajaveebi uue postituse loomise lehele. "
+
+#: ../classes/teacher.php:158
+msgid "clicking here"
+msgstr "siia"
+
+#: ../classes/teacher.php:159
+#, php-format
+msgid "Assignment deadline: %s"
+msgstr "Ülesande esitamise tähtaeg: %s"
+
+#: ../classes/teacher.php:180
+msgid "Grade & Feedback"
+msgstr "Hinne & Tagasiside"
+
+#: ../classes/teacher.php:419
+msgid "LePress Students Roster"
+msgstr "Osalejad"
+
+#: ../classes/teacher.php:419
+msgid "Students Roster"
+msgstr "Osalejad"
+
+#: ../classes/teacher.php:420
+msgid "LePress Classbook"
+msgstr "LePressi hindamisleht"
+
+#: ../classes/teacher.php:420
+msgid "Classbook"
+msgstr "Hindamisleht"
+
+#: ../classes/teacher.php:421
+msgid "Categories / Courses"
+msgstr "Rubriigid / kursused"
+
+#: ../classes/teacher.php:422
+msgid "Import / Export"
+msgstr "Impordi / Ekspordi"
+
+#: ../classes/teacher.php:508
+msgid "item"
+msgstr "objekt"
+
+#: ../classes/teacher.php:509
+msgid "items"
+msgstr "objekti"
+
+#: ../classes/teacher.php:510
+#: ../classes/teacher.php:935
+msgid "Assignment ending date must be greater than start date"
+msgstr "Ülesande lõpukuupäev on väiksem kui alguskuupäev."
+
+#: ../classes/teacher.php:609
+msgid "Course"
+msgstr "Kursus"
+
+#: ../classes/teacher.php:610
+msgid "Enrollment"
+msgstr "Registreerumine"
+
+#: ../classes/teacher.php:611
+msgid "Subscriptions Active/Pending"
+msgstr "Osalejad / ootel"
+
+#: ../classes/teacher.php:627
+msgid "Closed"
+msgstr "Suletud"
+
+#: ../classes/teacher.php:629
+msgid "Yes"
+msgstr "Jah"
+
+#: ../classes/teacher.php:639
+msgid "Open"
+msgstr "Vaba"
+
+#: ../classes/teacher.php:639
+msgid "Moderated"
+msgstr "Loaga"
+
+#: ../classes/teacher.php:691
+msgid "This category is a course"
+msgstr "See rubriik on kursus ?"
+
+#: ../classes/teacher.php:692
+msgid "Is this category a course for students ?"
+msgstr "Kas see rubriik on kursus ? Märgituna on õpilastel võimalik sellel kursusel osaleda."
+
+#: ../classes/teacher.php:693
+msgid "Open access course"
+msgstr "Avatud kursus"
+
+#: ../classes/teacher.php:694
+msgid "Can participant subscribe to this course without teacher's verification ?"
+msgstr "Kas osaleja saab kursusele registreeruda ilma õpetaja kinnituseta ?"
+
+#: ../classes/teacher.php:695
+msgid "Course teachers"
+msgstr "Teised õpetajad"
+
+#: ../classes/teacher.php:696
+msgid "Choose additional teachers for this course (Only current WordPress installation users)."
+msgstr "Vali teisi õpetajaid sellele kursusele (Ainult selle Wordpressi kasutajad)."
+
+#: ../classes/teacher.php:697
+msgid "Advertise this course"
+msgstr "Kuuluta kursust"
+
+#: ../classes/teacher.php:698
+msgid "Advertise this course on LePress Courses Sitewide widget ?"
+msgstr "Kuuluta kursust LePressi kursuste vidinas ?"
+
+#: ../classes/teacher.php:699
+msgid "Close this course"
+msgstr "Sulge kursus"
+
+#: ../classes/teacher.php:700
+msgid "Close this course <b>CAUTION!</b> Cannot be undone! no changes can be made to course data!"
+msgstr "Sule kursus. <b>Tähelepanu!</b> Pärast kursuse sulgemist ei ole võimalik kursuse andmeid muuta."
+
+#: ../classes/teacher.php:742
+#: ../classes/teacher.php:784
+msgid "No LePress teachers found"
+msgstr "LePress-i õpetajaid ei leitud."
+
+#: ../classes/teacher.php:742
+#: ../classes/teacher.php:784
+msgid "Add here"
+msgstr "Lisa õpetaja"
+
+#: ../classes/teacher.php:761
+msgid "You <b>cannot change</b> this, if course has <b>active subscriptions</b>"
+msgstr "Seda väärtust <b>ei saa</b> muuta, kui kursusel on <b>aktiivseid</b> osalejaid."
+
+#: ../classes/teacher.php:808
+msgid "Export"
+msgstr "Eksport"
+
+#: ../classes/teacher.php:810
+msgid "Export current state"
+msgstr "Ekspordi hetkeseis"
+
+#: ../classes/teacher.php:811
+msgid "Export as template (all assignments without students related information)"
+msgstr "Ekspordi mallina (kõik ülesanded ja postistused, ilma hindamisleheta)"
+
+#: ../classes/teacher.php:812
+msgid "Export this course data. \"Export current state\" exports also classbook, \"Export as template\" exports assginments and creates a new template."
+msgstr "Ekspordi kursuse andmed. Valides \"Ekspordi hetkeseis\" eksporditakse postitused ja hindamisleht, valides \"Ekspordi mallina\" ekspordiga postitused ja luuakse uus mall."
+
+#: ../classes/teacher.php:829
+msgid "Organization"
+msgstr "Organisatsioon"
+
+#: ../classes/teacher.php:831
+msgid "Your organization - university, college, high school, primary school etc.."
+msgstr "Sinu organisatsioon - ülikool, kolledž, keskkool, põhikool jms."
+
+#: ../classes/teacher.php:875
+msgid "This post is an assignment"
+msgstr "See postitus on ülesanne"
+
+#: ../classes/teacher.php:915
+msgid "You can only choose one course"
+msgstr "Ainult ühe kursuse saab valida"
+
+#: ../classes/teacher.php:920
+msgid "Chosen category is not a course"
+msgstr "Valitud rubriik ei ole kursus"
+
+#: ../classes/teacher.php:924
+msgid "Chosen category is a closed course"
+msgstr "Valitud rubriik on lõppenud kursus"
+
+#: ../classes/student_include/assignments.php:31
+msgid "Start"
+msgstr "Algus"
+
+#: ../classes/student_include/assignments.php:32
+msgid "End"
+msgstr "Lõpp"
+
+#: ../classes/student_include/assignments.php:34
+#: ../classes/student_include/assignments.php:131
+msgid "Status"
+msgstr "Olek"
+
+#: ../classes/student_include/assignments.php:38
+#: ../classes/student_include/assignments.php:135
+msgid "Actions"
+msgstr "Toimingud"
+
+#: ../classes/student_include/assignments.php:55
+#: ../classes/student_include/assignments.php:150
+msgid "Ready"
+msgstr "Sooritatud"
+
+#: ../classes/student_include/assignments.php:55
+#: ../classes/student_include/assignments.php:150
+msgid "View"
+msgstr "Vaata"
+
+#: ../classes/student_include/assignments.php:59
+msgid "Draft"
+msgstr "Mustand"
+
+#: ../classes/student_include/assignments.php:61
+#: ../classes/student_include/assignments.php:152
+msgid "Not ready"
+msgstr "Sooritamata"
+
+#: ../classes/student_include/assignments.php:67
+#: ../classes/student_include/assignments.php:157
+msgid "View feedback"
+msgstr "Vaata tagasisidet"
+
+#: ../classes/student_include/assignments.php:73
+msgid "Edit draft"
+msgstr "Muuda mustandit"
+
+#: ../classes/student_include/assignments.php:79
+#: ../classes/student_include/assignments.php:160
+msgid "Assignment is completed at"
+msgstr "Ülesanne sooritatud"
+
+#: ../classes/student_include/assignments.php:84
+#: ../classes/student_include/assignments.php:166
+msgid "Send e-mail to"
+msgstr "Saada e-kiri"
+
+#: ../classes/student_include/assignments.php:90
+msgid "There are no assignments in this course."
+msgstr "Ülesandeid sellel kursusel ei ole."
+
+#: ../classes/student_include/assignments.php:103
+msgid "No subscribed courses."
+msgstr "Aktiivseid kursuseid ei ole."
+
+#: ../classes/student_include/assignments.php:103
+msgid "Subscribe to course"
+msgstr "Liitu kursusele"
+
+#: ../classes/student_include/assignments.php:112
+msgid "Archived assignments"
+msgstr "Arhiveeritud ülesanded"
+
+#: ../classes/student_include/assignments.php:174
+msgid "There are no archived assignments in this course."
+msgstr "Arhiveeritud ülesandeid ei ole."
+
+#: ../classes/student_include/assignments.php:187
+msgid "No archived courses."
+msgstr "Arhiveeritud kursuseid ei ole"
+
+#: ../classes/student_include/class-my_subscriptions.php:121
+msgid "You have successfully subscribed to course"
+msgstr "Oled kursusele registreeritud"
+
+#: ../classes/student_include/class-my_subscriptions.php:128
+msgid "This course does not exist"
+msgstr "Kursust ei eksisteeri"
+
+#: ../classes/student_include/class-my_subscriptions.php:131
+msgid "Invitation key is expired or sent for another email"
+msgstr "Kutsevõti on aegunud või on saadetud teisele e-posti aadressile."
+
+#: ../classes/student_include/class-my_subscriptions.php:137
+msgid "Could not establish secure connection"
+msgstr "Ühenduse loomine ebaõnnestus"
+
+#: ../classes/student_include/class-my_subscriptions.php:143
+msgid "Subscriber with the same email address already subcribed"
+msgstr "Sinu profiilis oleva e-postiga aadressiga on juba selle kursusega liitutud."
+
+#: ../classes/student_include/class-my_subscriptions.php:146
+msgid "You cannot subcribe on your own course"
+msgstr "Iseenda kursusele ei saa registreeruda"
+
+#: ../classes/student_include/class-my_subscriptions.php:149
+msgid "Something went wrong... Try again"
+msgstr "Midagi läks väga valesti... Proovige uuesti"
+
+#: ../classes/student_include/class-my_subscriptions.php:199
+msgid "You have successfully unsubscribed from the course."
+msgstr "Oled edukalt kursuselt lahkunud"
+
+#: ../classes/student_include/class-my_subscriptions.php:202
+msgid "Subscription found, but could not remove: HTTP Status 500"
+msgstr "Päringu ebaõnnestus, HTTP kood 500"
+
+#: ../classes/student_include/class-my_subscriptions.php:209
+msgid "Unsubscribing failed: HTTP Status 412"
+msgstr "Kursuselt lahkumine ebaõnnestus: HTTP Staatus 412"
+
+#: ../classes/student_include/student-widget.php:28
+msgid "-- My subscriptions --"
+msgstr "-- Osalen kursustel --"
+
+#: ../classes/student_include/subscriptions.php:33
+msgid "Subscribed courses"
+msgstr "Aktiivsed kursused"
+
+#: ../classes/student_include/subscriptions.php:43
+#: ../classes/teacher_include/subscriptions.php:207
+msgid "Results"
+msgstr "Tulemused"
+
+#: ../classes/student_include/subscriptions.php:56
+#: ../classes/teacher_include/subscriptions.php:230
+msgid "View assignments"
+msgstr "Vaata ülesandeid"
+
+#: ../classes/student_include/subscriptions.php:63
+msgid "Unsubscribe"
+msgstr "Lahku"
+
+#: ../classes/student_include/subscriptions.php:67
+msgid "There is no subscribed courses."
+msgstr "Aktiivseid kursuseid ei ole."
+
+#: ../classes/student_include/subscriptions.php:80
+msgid "Awaiting authorization to courses"
+msgstr "Kinnitamata kursused"
+
+#: ../classes/student_include/subscriptions.php:90
+#: ../classes/student_include/subscriptions.php:135
+msgid "Address of Course"
+msgstr "Aadress"
+
+#: ../classes/student_include/subscriptions.php:91
+#: ../classes/student_include/subscriptions.php:136
+#: ../classes/teacher_include/subscriptions.php:270
+msgid "Message"
+msgstr "Sõnum"
+
+#: ../classes/student_include/subscriptions.php:92
+msgid "Action"
+msgstr "Toiming"
+
+#: ../classes/student_include/subscriptions.php:105
+msgid "Cancel"
+msgstr "Katkesta"
+
+#: ../classes/student_include/subscriptions.php:109
+msgid "There is no pending authorization requests."
+msgstr "Kinnitamata kursuseid ei ole."
+
+#: ../classes/student_include/subscriptions.php:122
+msgid "Declined courses"
+msgstr "Tagasilükatud kursused"
+
+#: ../classes/student_include/subscriptions.php:128
+msgid "Clear"
+msgstr "Tühjenda"
+
+#: ../classes/student_include/subscriptions.php:153
+msgid "There is no declined courses."
+msgstr "Tagasilükatud kursuseid ei ole."
+
+#: ../classes/student_include/subscriptions.php:169
+msgid "Subscribing..."
+msgstr "Oota.."
+
+#: ../classes/student_include/subscriptions.php:181
+msgid "Subscribe to Course"
+msgstr "Liitu kursusele"
+
+#: ../classes/student_include/subscriptions.php:191
+msgid "Address of Course:"
+msgstr "Kursuse aadress:"
+
+#: ../classes/student_include/subscriptions.php:193
+msgid "Blog's Category address, i.e.: http://teacher.wordpress.org/somecourse"
+msgstr "Ajaveebi rubriigi aadress, näiteks: http://opetaja.wordpress.org/kursus1(/?key=123ABCDF)"
+
+#: ../classes/student_include/subscriptions.php:199
+msgid "Message to Teacher:"
+msgstr "Sõnum õpetajale"
+
+#: ../classes/student_include/subscriptions.php:199
+#: ../classes/teacher_include/subscriptions.php:391
+msgid "optional"
+msgstr "valikuline"
+
+#: ../classes/student_include/subscriptions.php:201
+msgid "Optional. Enter here text if you need to say something related to registration to this course."
+msgstr "Kirjuta sõnum, mida soovid edastada siia."
+
+#: ../classes/teacher_include/class-course-meta.php:81
+#, php-format
+msgid "New assignment - %s"
+msgstr "Uus ülesanne - %s"
+
+#: ../classes/teacher_include/class-course-meta.php:82
+#, php-format
+msgid "New activity on course - %s"
+msgstr "Uus sündmus kursusel - %s"
+
+#: ../classes/teacher_include/class-course-meta.php:83
+#, php-format
+msgid "New assignment: %s"
+msgstr "Uus ülesanne: %s"
+
+#: ../classes/teacher_include/class-course-meta.php:84
+#, php-format
+msgid "Excerpt: %s"
+msgstr "Lühikokkuvõte: %s"
+
+#: ../classes/teacher_include/class-course-meta.php:85
+#, php-format
+msgid "Deadline: %s"
+msgstr "Tähtaeg: %s"
+
+#: ../classes/teacher_include/class-course-meta.php:239
+msgid "You are no longer a LePress teacher"
+msgstr "Te ei ole enam LePress-i õpetaja"
+
+#: ../classes/teacher_include/class-course-meta.php:240
+msgid "You are no longer a LePress teacher on blog"
+msgstr "Te ei ole enam LePressi õpetaja blogis"
+
+#: ../classes/teacher_include/class-course-meta.php:247
+msgid "You have been added as a LePress teacher"
+msgstr "Teid on lisatud LePressi õpetajana"
+
+#: ../classes/teacher_include/class-course-meta.php:248
+msgid "You have been added as a LePress teacher on blog"
+msgstr "Teid on lisatud LePressi õpetajana blogis"
+
+#: ../classes/teacher_include/class-course-meta.php:365
+#: ../classes/teacher_include/class-course-meta.php:609
+msgid "You have been unsubscribed from course"
+msgstr "Olete kursuselt lahkunud"
+
+#: ../classes/teacher_include/class-course-meta.php:603
+msgid "You have been accepted to course"
+msgstr "Teid on vastuvõetud kursusele"
+
+#: ../classes/teacher_include/class-course-meta.php:620
+msgid "You have been declined to course"
+msgstr "Teid ei võetud vastu  kursusele"
+
+#: ../classes/teacher_include/class-course-meta.php:865
+msgid "You have been invited to course"
+msgstr "Teid on kutsutud kursusele"
+
+#: ../classes/teacher_include/classbook.php:30
+msgid "Assignments marked as <b>drafts</b> are <b>not visible</b> to the students."
+msgstr "Ülesanded mis on märgitud <b>mustandina</b>, ei ole õpilastele nähtavad."
+
+#: ../classes/teacher_include/classbook.php:63
+#: ../classes/teacher_include/subscriptions.php:183
+msgid "No courses"
+msgstr "Kursused puuduvad"
+
+#: ../classes/teacher_include/classbook.php:93
+msgid "Ungraded"
+msgstr "Hindamata"
+
+#: ../classes/teacher_include/classbook.php:106
+msgid "There is no assessments in this course."
+msgstr "Sellel kursusel ei ole ülesandeid."
+
+#: ../classes/teacher_include/classbook.php:114
+msgid "View assignment"
+msgstr "Vaata ülesannet"
+
+#: ../classes/teacher_include/classbook.php:125
+msgid "Available posts"
+msgstr "Tavalised postitused"
+
+#: ../classes/teacher_include/classbook.php:126
+msgid "If post is in <b>multiple categories</b>, it is <b>moved to current</b> chosen category only."
+msgstr "Kui postitus on <b>mitmes rubriigis</b>, siis liigutatakse <b>see</b> hetkel valitud kursuse rubriiki."
+
+#: ../classes/teacher_include/classbook.php:137
+msgid "Title"
+msgstr "Pealkiri"
+
+#: ../classes/teacher_include/classbook.php:167
+msgid "View post"
+msgstr "Vaata postitust"
+
+#: ../classes/teacher_include/classbook.php:172
+msgid "No regular posts in this course"
+msgstr "Selles kategoorias ei ole ühtegi tavalist postitust"
+
+#: ../classes/teacher_include/classbook.php:181
+msgid "Make into assignment"
+msgstr "Määra ülesandeks"
+
+#: ../classes/teacher_include/import_export.php:14
+msgid "Template successfully exported"
+msgstr "Mall edukalt eksporditud"
+
+#: ../classes/teacher_include/import_export.php:16
+msgid "Template could not be exported"
+msgstr "Malli ei suudetud eksportida"
+
+#: ../classes/teacher_include/import_export.php:28
+msgid "Template successfully removed"
+msgstr "Mall edukalt eemaldatud"
+
+#: ../classes/teacher_include/import_export.php:30
+msgid "Error occured, could not remove template, try again..."
+msgstr "Viga, malli ei suudetud eemaldada, proovige uuesti..."
+
+#: ../classes/teacher_include/import_export.php:45
+msgid "Template successfully imported"
+msgstr "Mall edukalt imporditud"
+
+#: ../classes/teacher_include/import_export.php:47
+msgid "Could not import template, try again..."
+msgstr "Malli ei suudetud importida, proovige uuesti..."
+
+#: ../classes/teacher_include/import_export.php:66
+msgid "Active courses"
+msgstr "Aktiivsed kursused"
+
+#: ../classes/teacher_include/import_export.php:70
+#: ../classes/teacher_include/import_export.php:98
+#: ../classes/teacher_include/manage-assignment.php:60
+#: ../classes/teacher_include/subscriptions.php:204
+#: ../classes/teacher_include/subscriptions.php:266
+msgid "Name"
+msgstr "Nimi"
+
+#: ../classes/teacher_include/import_export.php:87
+#: ../classes/teacher_include/import_export.php:129
+msgid "No active courses"
+msgstr "Aktiivseid kursuseid ei ole"
+
+#: ../classes/teacher_include/import_export.php:94
+msgid "Available templates"
+msgstr "Mallid"
+
+#: ../classes/teacher_include/import_export.php:99
+msgid "Import / Export date"
+msgstr "Impordi / Ekspordi kuupäev"
+
+#: ../classes/teacher_include/import_export.php:109
+msgid "Use template"
+msgstr "Kasuta malli"
+
+#: ../classes/teacher_include/import_export.php:110
+msgid "Download template"
+msgstr "Lae mall alla"
+
+#: ../classes/teacher_include/import_export.php:111
+msgid "Are you sure you want remove this template ?"
+msgstr "Oled kindel, et soovid selle malli eemaldada ?"
+
+#: ../classes/teacher_include/import_export.php:111
+msgid "Remove template"
+msgstr "Eemalda mall"
+
+#: ../classes/teacher_include/import_export.php:132
+msgid "Import"
+msgstr "Impordi"
+
+#: ../classes/teacher_include/import_export.php:141
+msgid "No templates found"
+msgstr "Malle ei ole"
+
+#: ../classes/teacher_include/import_export.php:150
+msgid "Download all templates as single file"
+msgstr "Lae alla mallide kogumik"
+
+#: ../classes/teacher_include/import_export.php:156
+msgid "Upload template or single templates file"
+msgstr "Lae üles mall või mallide kogumik"
+
+#: ../classes/teacher_include/import_export.php:158
+msgid "Upload template file"
+msgstr "Lae mall üles"
+
+#: ../classes/teacher_include/import_export.php:158
+msgid "Upload"
+msgstr "Lae üles"
+
+#: ../classes/teacher_include/manage-assignment.php:10
+msgid "Manage assignment"
+msgstr "Ülesande haldamine"
+
+#: ../classes/teacher_include/manage-assignment.php:22
+#: ../classes/teacher_include/send-feedback.php:77
+msgid "Go back"
+msgstr "Tagasi"
+
+#: ../classes/teacher_include/manage-assignment.php:66
+#: ../classes/teacher_include/send-feedback.php:156
+msgid "Feedback"
+msgstr "Tagasiside"
+
+#: ../classes/teacher_include/manage-assignment.php:69
+msgid "Submission time"
+msgstr "Esitamise aeg"
+
+#: ../classes/teacher_include/manage-assignment.php:89
+msgid "Accomplished"
+msgstr "Sooritatud"
+
+#: ../classes/teacher_include/manage-assignment.php:98
+msgid "Send e-mail"
+msgstr "Saada e-kiri"
+
+#: ../classes/teacher_include/manage-assignment.php:105
+msgid "There is no subscribed students who need to accomplish this assessment."
+msgstr "Ühtegi õpilast ei ole antud ülesande kursusele registreerunud."
+
+#: ../classes/teacher_include/manage-assignment.php:117
+#: ../classes/teacher_include/manage-assignment.php:120
+#: ../classes/teacher_include/send-feedback.php:113
+#: ../classes/teacher_include/send-feedback.php:213
+#: ../classes/teacher_include/send-feedback.php:216
+msgid "This is somewhat embarrasing, isn't it?"
+msgstr "Piinlik, kas pole ?"
+
+#: ../classes/teacher_include/manage-assignment.php:117
+#: ../classes/teacher_include/manage-assignment.php:120
+#: ../classes/teacher_include/send-feedback.php:113
+#: ../classes/teacher_include/send-feedback.php:213
+#: ../classes/teacher_include/send-feedback.php:216
+msgid "It seems we can't find what you're looking for."
+msgstr "Tundub, et me ei leia päritud infot."
+
+#: ../classes/teacher_include/send-feedback.php:39
+msgid "Your feedback to student {name} is sent. Redirecting to the assignment page..."
+msgstr "Tagasiside õpilasele {name} on saadetud. Ülesannete lehele suunamine..."
+
+#: ../classes/teacher_include/send-feedback.php:47
+msgid "You are <b>not teacher</b> on this course, sorry... Cannot allow sending feedback."
+msgstr "Sa <b>ei ole</b> selle kursuse õpetaja....Tagasiside saatmine on katkestatud"
+
+#: ../classes/teacher_include/send-feedback.php:52
+msgid "Your feedback was not sent, because course of this assignment is set as closed"
+msgstr "Tagasisdet ei saadetud, kuna kursus on lõppenud"
+
+#: ../classes/teacher_include/send-feedback.php:55
+msgid "No changes detected, not sending feeback. Redirecting to the assignment page..."
+msgstr "Muudatusi ei tuvastatud, tagasisidet ei saadeta. Ülesannete lehele suunamine..."
+
+#: ../classes/teacher_include/send-feedback.php:59
+msgid "Your feedback to student {name} was <b>not sent</b>. Try again..."
+msgstr "Tagasiside õpilasele {name} saatmine ebaõnnestus. Proovi uuesti..."
+
+#: ../classes/teacher_include/send-feedback.php:79
+msgid "Write assesment feedback"
+msgstr "Saada tagasiside"
+
+#: ../classes/teacher_include/send-feedback.php:100
+msgid "Sorry, post not found..."
+msgstr "Vabandust, postitust ei leitud..."
+
+#: ../classes/teacher_include/send-feedback.php:103
+#: ../classes/teacher_include/send-feedback.php:147
+msgid "Redirecting to the assignment page..."
+msgstr "Ülesannete lehele suunamine"
+
+#: ../classes/teacher_include/send-feedback.php:132
+msgid "Submission of"
+msgstr "Õpilane"
+
+#: ../classes/teacher_include/send-feedback.php:182
+msgid "Feedback to submission"
+msgstr "Tagasiside õpilase vastusele"
+
+#: ../classes/teacher_include/subscriptions.php:70
+#, php-format
+msgid "Course \"%s\" is closed, cannot invite students"
+msgstr "Kursus \"%s\" on suletud, õpilasi ei kutsuta"
+
+#: ../classes/teacher_include/subscriptions.php:108
+msgid "You have unsubscribed student"
+msgstr "Eemaldasid õpilase kursuselt"
+
+#: ../classes/teacher_include/subscriptions.php:118
+#, php-format
+msgid "You have accepted %d student."
+msgstr "Võtsid vastu %d õpilase."
+
+#: ../classes/teacher_include/subscriptions.php:118
+#, php-format
+msgid "You have accepted %d students."
+msgstr "Võtsid vastu %d õpilast."
+
+#: ../classes/teacher_include/subscriptions.php:124
+#, php-format
+msgid "You have declined %d student."
+msgstr "Lükkasid tagasi %d õpilase."
+
+#: ../classes/teacher_include/subscriptions.php:124
+#, php-format
+msgid "You have declined %d students."
+msgstr "Lükkasid tagasi %d õpilast."
+
+#: ../classes/teacher_include/subscriptions.php:130
+#, php-format
+msgid "You have invited %d student."
+msgstr "Saatsid kutse %d õpilasele."
+
+#: ../classes/teacher_include/subscriptions.php:130
+#, php-format
+msgid "You have invited %d students."
+msgstr "Saatsid kutsed %d õpilasele."
+
+#: ../classes/teacher_include/subscriptions.php:136
+#, php-format
+msgid "%d student email was not valid."
+msgstr "%d õpilase e-posti aadress ei valideeru"
+
+#: ../classes/teacher_include/subscriptions.php:136
+#, php-format
+msgid "%d students emails were not valid."
+msgstr "%d õpilase e-posti aadressid ei valideeru."
+
+#: ../classes/teacher_include/subscriptions.php:142
+msgid "Subscribed students"
+msgstr "Kursusel osalejad"
+
+#: ../classes/teacher_include/subscriptions.php:151
+msgid "Course (Category)"
+msgstr "Kursus (rubriik)"
+
+#: ../classes/teacher_include/subscriptions.php:193
+msgid "This course is closed, no changes can be made!"
+msgstr "Kursus on lõppenud, muudatusi ei saa teha!"
+
+#: ../classes/teacher_include/subscriptions.php:205
+#: ../classes/teacher_include/subscriptions.php:267
+msgid "E-mail"
+msgstr "E-post"
+
+#: ../classes/teacher_include/subscriptions.php:209
+msgid "Blog"
+msgstr "Ajaveeb"
+
+#: ../classes/teacher_include/subscriptions.php:235
+msgid "Remove"
+msgstr "Eemalda"
+
+#: ../classes/teacher_include/subscriptions.php:240
+msgid "There are no participants on selected course."
+msgstr "Kursusel osalejaid ei ole."
+
+#: ../classes/teacher_include/subscriptions.php:254
+msgid "Students awaiting authorization"
+msgstr "Kinnitust ootavad osalejad"
+
+#: ../classes/teacher_include/subscriptions.php:272
+msgid "Accept"
+msgstr "Jah"
+
+#: ../classes/teacher_include/subscriptions.php:274
+msgid "Decline"
+msgstr "Ei"
+
+#: ../classes/teacher_include/subscriptions.php:276
+msgid "Response"
+msgstr "Vastus"
+
+#: ../classes/teacher_include/subscriptions.php:309
+msgid "There is no pending authorizations"
+msgstr "Ühtegi kinnitust vajavat osalejat ei ole"
+
+#: ../classes/teacher_include/subscriptions.php:311
+msgid "Confirm"
+msgstr "Kinnita"
+
+#: ../classes/teacher_include/subscriptions.php:327
+#: ../classes/teacher_include/subscriptions.php:399
+msgid "Invite students"
+msgstr "Kutsu osalejaid"
+
+#: ../classes/teacher_include/subscriptions.php:337
+msgid "Import list of students"
+msgstr "Impordi osalejate nimekiri"
+
+#: ../classes/teacher_include/subscriptions.php:339
+msgid "Text file with emails separated by new line can upload here."
+msgstr "Tekstifail, (*.txt) milles iga e-posti aadress on eraldatud uue reaga."
+
+#: ../classes/teacher_include/subscriptions.php:345
+msgid "Or add manually:"
+msgstr "Või lisa käsitsi"
+
+#: ../classes/teacher_include/subscriptions.php:345
+msgid "Seperate with new row"
+msgstr "Iga e-posti aadress uuele reale"
+
+#: ../classes/teacher_include/subscriptions.php:353
+msgid "Separate each email with new line."
+msgstr "Iga e-posti aadress uuele reale"
+
+#: ../classes/teacher_include/subscriptions.php:359
+msgid "Category (Course) to invite:"
+msgstr "Kursus (rubriik) "
+
+#: ../classes/teacher_include/subscriptions.php:378
+msgid "Please add categories as course or mark existing category as a course"
+msgstr "Lisa uus rubriik kursusena või määra eelnev rubriik kursuseks"
+
+#: ../classes/teacher_include/subscriptions.php:378
+msgid "here"
+msgstr "siin"
+
+#: ../classes/teacher_include/subscriptions.php:381
+msgid "Mark the courses to which you want to invite students."
+msgstr "Vali kursused, millele soovid õpilasi kutsuda."
+
+#: ../classes/teacher_include/subscriptions.php:391
+msgid "Message to student/s:"
+msgstr "Sõnum osalejatele:"
+
+#: ../classes/teacher_include/subscriptions.php:393
+msgid "Optional. Here you can write some invitation and additional information to identify your email for student."
+msgstr "Valikuline. Kutse sõnum õpilastele"
+
+#: ../classes/teacher_include/teacher-widget.php:24
+msgid "-- My courses --"
+msgstr "-- Minu kursused --"
+
+#~ msgid "LePress Manual"
+#~ msgstr "LePress-i juhend"
+
+#~ msgid "What is LePress?"
+#~ msgstr "Mis on LePress?"
+
+#~ msgid "You have not configured your plugin"
+#~ msgstr "LePressi moodul ei ole seadistatud."
+
+#~ msgid "Enter your blog URL"
+#~ msgstr "Sisesta oma ajaveebi URL"
+
+#~ msgid "Export as template"
+#~ msgstr "Ekspordi mallina"
+
+#, fuzzy
+#~ msgid "Click here to view assignments on your blog"
+#~ msgstr "Vaata ülesannet õpetaja ajaveebis"
+
+#~ msgid "Check your password"
+#~ msgstr "Autoriseerimine ebaõnnestus"
+
+#~ msgid "General error, try again..."
+#~ msgstr "Viga, proovi uuesti..."
+
+#~ msgid "Enter your LePress password"
+#~ msgstr "Sisesta LePressi salasõna"
+
+#~ msgid "Password"
+#~ msgstr "Salasõna"
+
+#~ msgid "Your LePress password (student)"
+#~ msgstr "Sinu LePressi salasõna (õpilane)"
+
+#~ msgid "Password not set"
+#~ msgstr "Salasõna määramata"
+
+#~ msgid ""
+#~ "With this password you can use <b>\"simple subscribe\"</b> method, to "
+#~ "subscribe to courses. This means if you have set this password, then you "
+#~ "<b>can subscribe directly</b> from teacher's blog widget, using the "
+#~ "subscribe form. <b>Empty password not accepted!</b>"
+#~ msgstr ""
+#~ "See salasõna <b>võimaldab</b> kursustele <b>registreeruda otse</b> "
+#~ "õpetaja ajaveebi vidina \"Liitumise\" vormi kaudu. <b>Tühja parooli ei "
+#~ "aksepteerita.</b>"
+
+#~ msgid "Captcha check failed"
+#~ msgstr "Turvakoodi kontroll ebaõnnestus"
+
+#~ msgid "Enter captcha code"
+#~ msgstr "Sisesta turvakood"
+
+#~ msgid "View student's submission"
+#~ msgstr "Vaata õpilase esitatud tööd"
+
+#~ msgid "Your grade"
+#~ msgstr "Sinu hinne"
+
+#~ msgid "Verify"
+#~ msgstr "Ei"
+
+#~ msgid "This is somewhat embarrassing, isn't it?"
+#~ msgstr "Piinlik, kas pole ?"

@@ -1,0 +1,46 @@
+/* LePress Active Network wide courses widget styles */
+
+/* H3 Tag styles */
+
+.widget_lepresscourseswidget h3 {
+	cursor: pointer;
+	background-color: #F4F4F4;
+	margin-top: 5px;
+	margin-bottom: 3px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding-left: 5px;
+}
+
+.lepress-course {
+	padding-left: 12px;
+}
+
+.lepress-course-header {
+	padding-left: 2px;
+}
+
+div.lepress-course-teacher {
+	width: 100%;
+	text-align: right;
+}
+
+.lepress-sitewide-hidden {
+	display:none;
+}
+
+/* Course description popup styles, margin-left is overwritten with JS if left-sidebared theme used */
+
+#lepress-sitewide-courses-popup {
+	position: absolute; 
+	width: 250px; 
+	background-color:#FFF;
+	display:none;
+	margin-left: -285px;
+	margin-top: 12px;
+	padding: 10px;
+	
+	-moz-box-shadow: 0px 0px 5px 5px #ccc;
+  	-webkit-box-shadow: 0px 0px 5px 5px #ccc;
+  	box-shadow: 0px 0px 5px 5px #ccc;
+}
